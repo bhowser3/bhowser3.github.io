@@ -1,6 +1,7 @@
 [
   {
      "id":0,
+     "index": 0,
      "guid":"3fdb47e2-9d56-4f4f-ab06-9eb0f900fb69",
      "age":21,
      "name":"Ben Howser",
