@@ -1,18 +1,5 @@
 [
   {
-    "id": 0,
-    "index": 0,
-    "guid": "e5687941-02e2-407c-b309-cb1cf34cd93b",
-    "age": 21,
-    "name": "Ben Howser",
-    "company": "MIZZOU",
-    "phone": "+1 (573) 999-5555",
-    "about": "Informtaion Technology Senior @ Mizzou",
-    "registered": "2020-02-14T08:30:06 +06:00",
-    "latitude": 21.043151,
-    "longitude": 152.527853
-  },
-  {
     "id": 1,
     "index": 1,
     "guid": "1e492b9a-e95d-4595-b274-fd84a7da8f5c",
