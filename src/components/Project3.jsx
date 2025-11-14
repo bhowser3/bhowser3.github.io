@@ -80,7 +80,6 @@ function ImageCarousel() {
         >
           &#8249;
         </button>
-
         <div
           className="carousel-images"
           ref={containerRef}
@@ -102,7 +101,6 @@ function ImageCarousel() {
             ))}
           </div>
         </div>
-
         <button
           className="carousel-button next"
           onClick={nextImage}
@@ -111,11 +109,9 @@ function ImageCarousel() {
           &#8250;
         </button>
       </div>
-
       <div className="carousel-label">
         {images[currentIndex].desc}
       </div>
-
       <div className="carousel-dots">
         {images.map((_, i) => (
           <button
