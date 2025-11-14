@@ -12,7 +12,7 @@ import './styles/Navigation.css';
 function App() {
   const scrollToSection = id => {
     const el = document.getElementById(id);
-    if (el) el.scrollIntoView({block:'start', inline:'nearest'}); // behavior handled by CSS
+    if (el) el.scrollIntoView({block:'start', inline:'nearest'});
   };
 
   return (

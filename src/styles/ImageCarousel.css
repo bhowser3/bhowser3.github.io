@@ -1,12 +1,14 @@
 .carousel-container {
   margin: 1.5rem auto 0 auto;
-  max-width: 100%;
+  width: 100%;          /* respect parent width */
+  max-width: 60vw;      /* this matches .project-container desktop width */
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 2px 12px rgba(255,255,255,0.1);
   background: #000;
   border: 1px solid #333;
 }
+
 
 .carousel-wrapper {
   position: relative;
@@ -82,23 +84,25 @@
 .carousel-dots {
   display: flex;
   justify-content: center;
-  align-items: center;   
-  padding: 1rem;
-  background: #000;
+  align-items: center;
   gap: 8px;
+  flex-shrink: 0;
 }
+
 
 .carousel-dot {
   width: 12px;
   height: 12px;
-  flex: 0 0 12px;        
-  aspect-ratio: 1 / 1;   
+  display: inline-block;     
+  flex: none;                
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
-  border: none;
   background: #555;
   cursor: pointer;
   transition: all 0.2s ease;
+  box-sizing: border-box;    
 }
+
 
 
 .carousel-dot:hover {
@@ -111,10 +115,14 @@
   transform: scale(1.2);
 }
 
-.carousel-label{
-  color: #fff;
+.carousel-label {
   margin-top: 10px;
   text-align: center;
+  font-family: 'Fira Code', 'Source Code Pro', Menlo, Monaco, Consolas, monospace;
+  font-size: 0.9rem;
+  color: #ccc;        /* light grey */
+  letter-spacing: 0.5px;
+  user-select: none;
 }
 
 @media (max-width: 768px) {
@@ -186,4 +194,11 @@
   flex: 0 0 100%;
   object-fit: cover;
   object-position: center;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    max-width: 100%;
+    width: 100%;
+  }
 }
