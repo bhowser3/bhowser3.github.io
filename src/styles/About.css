@@ -1,0 +1,70 @@
+.about-container {
+  background: #000;
+  border-radius: 24px;
+  padding: 1.5rem 2.5rem 2.5rem 2.5rem;
+  max-width: 60vw;
+  margin: 3rem auto 0 auto;
+  border: 1px solid #333;
+}
+
+.about-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.about-role {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.about-text {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    max-width: 100%;
+    margin: 1.5rem 0 0 0;
+    border-radius: 16px;
+    padding: 1.5rem 1.25rem 2rem 1.25rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-role {
+    font-size: 1.1rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    margin-top: 1rem;
+    padding: 1.25rem 1rem 1.75rem 1rem;
+  }
+
+  .about-title {
+    font-size: 1.75rem;
+  }
+
+  .about-role {
+    font-size: 1rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+}
