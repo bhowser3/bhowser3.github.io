@@ -89,6 +89,8 @@
   background: #000;
   gap: 8px;
   margin: 10px;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .carousel-dot {
@@ -96,11 +98,13 @@
   background: transparent;
   padding: 0;
   margin: 0;
-  font-size: 1.1rem; /* adjust size as you like */
+  font-size: 1.1rem;
   line-height: 1;
   color: #555;
   cursor: pointer;
   transition: transform 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+  user-select: none;          /* ← prevents text selection */
+  -webkit-user-select: none;  /* ← iOS Safari */
 }
 
 .carousel-dot:hover {
