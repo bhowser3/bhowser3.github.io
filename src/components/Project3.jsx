@@ -119,7 +119,10 @@ function ImageCarousel() {
             className={`carousel-dot ${i === currentIndex ? 'active' : ''}`}
             onClick={() => goToImage(i)}
             aria-label={`Go to image ${i + 1}`}
-          />
+            type="button"
+          >
+            ●
+          </button>
         ))}
       </div>
     </div>
