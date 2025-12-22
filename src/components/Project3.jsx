@@ -17,7 +17,7 @@ function ImageCarousel() {
     { url: img('lab_3.jpg'), alt: 'Homelab rack angle 3', desc: "This is the RaspberryPi that is hosting the Reddit sports bot! Complete with heatsink, fan, and switch"},
     { url: img('lab_4.jpg'), alt: 'Homelab rack angle 4', desc: "Ew dusty..."},
     { url: img('lab_5.jpg'), alt: 'Homelab rack angle 5', desc: "Never said I was a good photographer!"},
-    { url: img('lab_6.jpg'), alt: 'Homelab rack angle 6', desc: "No it does live on the floor, it lives amongst its kind"},
+    { url: img('lab_6.jpg'), alt: 'Homelab rack angle 6', desc: "No it does not live on the floor, it lives amongst its kind"},
   ];
 
   const nextImage = () =>
